@@ -27,6 +27,11 @@ public class Principal {
 		veiculo.acelerar(30);
 		System.out.println( veiculo.velocidade );
 		System.out.println( veiculo2.velocidade );
+		System.out.println();
+		
+		veiculo2.frear(45);
+		System.out.println( veiculo.velocidade );
+		System.out.println( veiculo2.velocidade );
 		
 		
 	}
